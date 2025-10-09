@@ -20,25 +20,41 @@ A convenção de commit é um padrão que torna o histórico do código legível
 
 # 2. Fluxo de Trabalho Versionado e Colaborativo (Git Flow Simplificado)
 
-Em um ambiente colaborativo, você nunca trabalha diretamente no branch principal >(main). O fluxo ideal é:
+Em um ambiente colaborativo, você nunca trabalha diretamente no branch principal (main). O fluxo ideal é:
 
-1. **Criar uma nova branch:** Para isolar seu trabalho.
+1. **Iniciar o rastreamente do repositório** Etapa necessária apenas em novos projetos.
+```
+git init
+```
+
+2. **Criar uma nova branch:** Para isolar seu trabalho.
 ```
 git checkout -b minha-nova-feature
 ```
-2. **Desenvolver e Commitar:** Faça suas alterações e commits locais.
+3. **Desenvolver e enviar para preparação** Move as alterações da pasta de trabalho (working directory) para a staging area (área de preparação).
+```
+git add .
+```
+4. **Commitar:** Cria o registro histórico do seu trabalho local.
 ```
 git commit -m "feat: adicionando tela de login"
 ```
-3. **Sincronizar:** Atualizar sua branch com as últimas mudanças do main antes de enviar.
+
+5. **Conectar o Repositório Remoto** (Apenas na Primeira Vez): Associa o apelido origin à URL do seu projeto no GitHub.
+```
+git remote add origin <URL_DO_REPOSITÓRIO_GITHUB>
+```
+
+6. **Sincronizar** (Pull): Atualiza sua branch com as últimas mudanças do main remoto, caso outra pessoa tenha comitado. (Idealmente feito antes de enviar).
 ```
 git pull origin main
 ```
-4. **Enviar:** Publicar o trabalho para o GitHub.
+7. **Enviar** (Push): Publica o trabalho no GitHub e define o rastreamento (-u)..
+
 ```
 git push -u origin minha-nova-feature
 ```
-5. **Abrir PR:** Criar um Pull Request (PR) no GitHub para que o código seja revisado e, se aprovado, mesclado ao `main`.
+8. **Abrir PR:** Criar um Pull Request (PR) no GitHub para que o código seja revisado e, se aprovado, mesclado ao `main`.
 
 ## Comandos de Branches
 |Objetivo|Comando|
