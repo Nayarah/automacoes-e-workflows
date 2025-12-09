@@ -1,0 +1,16 @@
+# Análise crítica da aplicação do Scrum na Intel
+
+O estudo de caso da Danube Technologies relata o desenvolvimento Ágil de Projetos na Intel e detalha a transição da equipe de Engenharia de Desenvolvimento de Produtos (PDE) da Intel, de uma cultura tradicional waterfall (cascata) para a adoção do framework Scrum. 
+
+O departamento de PDE da Intel, se sentia pressionado entre os setores de design e fabricação, e com pouco controle sobre prazo, escopo, instabilidades frequentes de requisitos ou entregáveis, baixa reputação entre as equipes, que resultava em handoffs ineficientes, sobrecarga de trabalho nas fases finais do ciclo de vida e alta rotatividade. Este era o cenário observado atuando no modelo tradicional cascata funcionando com cultura de silos.
+
+Neste cenário, podemos destacar a implementação do Scrum, como beneficiamento de previsibilidade com cronogramas de sprints priorizando valor e combatendo o excesso de compromissos e a instabilidade de requisitos.
+
+A aplicação do Scrum se iniciou estrategicamente na etapa de desenvolvimento de um novo projeto, com um dos valores do Scrum, o comprometimento com o treinamento dos líderes do grupo técnico que se tornaram então o Product Owner. A Intel também promoveu incentivos para profissionais se voluntariassem ao papel de Scrum Master. Uma wiki interna permitiu que as equipes documentassem o que funcionou para elas, o que não funcionou bem e sugestões de melhores práticas para a adoção do Scrum, seguindo um dos pilares do Scrum, a transparência. Após um período piloto foi feita a inspeção, que é um segundo pilar do Scrum, e a adaptação, terceiro e último pilar do Scrum, quando foi necessário fazer modificações adicionando papéis que funcionavam como pontes e camadas de coordenação, permitindo que os princípios centrais do Scrum (como a cadência e a auto-organização) pudessem prosperar.
+
+O resultado da aplicação do Scrum na Intel foi uma mudança cultural e estrutural na organização impactando em quatro áreas principais: Tempo de Ciclo, com redução de 66%; Desempenho em Relação ao Cronograma, eliminamos atrasos no cronograma e compromissos perdidos; Moral e Transparência, levando a adoção de padrões formais, descobrindo bugs e eliminando impedimentos e maus hábitos de trabalho.
+
+A Intel demonstrou os valores do Scrum com compromisso em capacitar seus profissionais em um novo framework de gestão de projetos com foco, abertura, respeito e coragem para mudar algo que já estava consolidado e seguir se adaptando para implementar o Scrum à realidade da Intel, permitindo avançar rumo ao cenário mais ideal de aplicação. Contudo, analisando o relato do primeiro ano de implementação com algumas equipes de Scrum voltando a velhos hábitos, com PO questionando se havia o registro de atividades em backlogs e desenvolvedores solicitando PO na produção de testes para comprovar requisitos, eu teria me empenhado em ter mais profissionais no papel de Scrum Master, o relato do caso menciona 1 Scrum Master para 7 equipes nos 3 primeiros meses e depois 4 Scrum Master para 8 equipes. Certamente mais profissionais ocupando estes papeis contribuiriam para inspeções mais eficazes identificando e sanando desvios com mais agilidade.
+
+**Fonte:** http://www.michaeljames.org/Intel-case-study.pdf  
+**Autor:** Nayara Francisco de Almeida
