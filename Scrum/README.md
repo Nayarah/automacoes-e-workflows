@@ -1,7 +1,7 @@
 # Compreendendo a Estrutura Scrum
 O scrum é um framework de uso crescente em ambientes complexos.
 
-## Definição    
+## Definição
 Scrum é um framework leve que ajuda pessoas, times e organizações a gerar valor por meio
 de soluções adaptativas para problemas complexos.
 
